@@ -1,0 +1,54 @@
+body {
+    background-image: url('100m.jpg'); /* Remplace par ton image */
+    background-size: cover;  /* Ajuste l'image à l'écran */
+    background-position: center;  /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition */
+    background-attachment: fixed; /* Fixe l'image lors du scroll */
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+    /* Centrer le contenu verticalement et horizontalement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    margin: 0;
+}
+
+
+/* Style du formulaire */
+form {
+    background:white(0, 0, 0, 1); /* Fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    
+    text-align: left;
+}
+
+/* Style des champs de formulaire */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style du bouton */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+ 
